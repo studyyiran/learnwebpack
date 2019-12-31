@@ -1,3 +1,6 @@
+import './index.css'
+
+
 function component() {
     const element = document.createElement('div');
 
@@ -7,4 +10,8 @@ function component() {
     return element;
 }
 
-document.body.appendChild(component());
+window.addEventListener('load', () => {
+    console.log('start')
+    document.body.appendChild(component());
+})
+
