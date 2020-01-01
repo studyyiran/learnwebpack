@@ -10,8 +10,5 @@ function component() {
     return element;
 }
 
-window.addEventListener('load', () => {
-    console.log('start')
-    document.body.appendChild(component());
-})
+document.querySelector('#app').appendChild(component());
 

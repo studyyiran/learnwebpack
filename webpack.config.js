@@ -5,8 +5,8 @@ const config = {
       inputname: './src/index2.js'
     },
     output: {
-        filename: 'outpuname.js',
-        path: path.resolve(__dirname, 'dist2')
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [
