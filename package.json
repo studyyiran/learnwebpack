@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "lessc src/index.less src/index.css && webpack --config webpack.config.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studyyiran/learnwebpack.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "less-loader": "^5.0.0",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
+  "bugs": {
+    "url": "https://github.com/studyyiran/learnwebpack/issues"
   },
+  "homepage": "https://github.com/studyyiran/learnwebpack#readme",
   "dependencies": {
-    "css-loader": "^3.4.0",
-    "style-loader": "^1.1.2"
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
