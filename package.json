@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "webpack": "webpack",
+    "build": "echo \"Error: no test specified\" && npm run rebpack",
+    "prod": "npm run webpack -- --env.mode production",
+    "dev": "npm run webpack -- --env.mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
