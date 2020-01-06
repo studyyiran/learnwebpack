@@ -1,3 +1,5 @@
+import './index.css'
+
 console.log('start index.js')
 const target = document.createElement('div')
 target.innerHTML = '123'

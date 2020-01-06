@@ -90,10 +90,23 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('start index.js')\r\nconst target = document.createElement('div')\r\ntarget.innerHTML = '123'\r\nconsole.log('document.querySelector')\r\ndocument.querySelector('body').appendChild(target)\n\n//# sourceURL=webpack:///./src/app.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\r\n\r\nconsole.log('start index.js')\r\nconst target = document.createElement('div')\r\ntarget.innerHTML = '123'\r\nconsole.log('document.querySelector')\r\ndocument.querySelector('body').appendChild(target)\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"data:text/css;base64,Ym9keSB7CiAgZm9udC1zaXplOiAyMHB4Owp9CmJvZHkgLmEgewogIGNvbG9yOiByZWQ7CiAgYmFja2dyb3VuZDogcmVkOwp9CmJvZHkgLmIgewogIGNvbG9yOiBibHVlOwogIGJhY2tncm91bmQ6IGJsdWU7Cn0KYm9keSAubSB7CiAgZm9udC1zaXplOiAxcHg7Cn0KYm9keSAucCB7CiAgZm9udC1zaXplOiAxMDBweDsKfQovKgpsZXNz55qE5pys6LSo5piv55So5Ye95pWw5ZKM5Y+Y6YeP5b+r5o2355Sf5oiQY3NzLgrku5bmsLjov5zmsqHmnInlip7ms5XlgZrlj5jph4/ov5DooYzml7bnmoTmk43kvZwo5YyF5ous5byV55SoLOWMheaLrOimhueblizljIXmi6zliqjmgIEpCiAqLwo=\");\n\n//# sourceURL=webpack:///./src/index.css?");
 
 /***/ })
 
